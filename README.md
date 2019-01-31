@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to use
 
-Things you may want to cover:
+Git clone the repository to your computer
 
-* Ruby version
+In your terminal, run the bundle install command
 
-* System dependencies
+Run the rails db:migrate command
 
-* Configuration
+Then, run the rails db:seed command
 
-* Database creation
+You can now open your rails console by typing rails console
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To display the doctors table, type tp Doctor.all in the rails console. To display the patients table, type tp Patient.all etc...
